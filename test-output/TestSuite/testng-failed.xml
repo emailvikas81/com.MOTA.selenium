@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="version" value="32"/>
+  <parameter name="platform" value="Windows"/>
+  <test name="Windows+Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="32"/>
+    <parameter name="platform" value="Windows"/>
+    <classes>
+      <class name="com.MOTA.selenium.DriverTest">
+        <methods>
+          <include name="GoogleSearch"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.MOTA.selenium.DriverTest -->
+    </classes>
+  </test> <!-- Windows+Chrome Test(failed) -->
+  <test name="Windows+Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="version" value="8"/>
+    <parameter name="platform" value="Windows"/>
+    <classes>
+      <class name="com.MOTA.selenium.DriverTest">
+        <methods>
+          <include name="GoogleSearch"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.MOTA.selenium.DriverTest -->
+    </classes>
+  </test> <!-- Windows+Firefox Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

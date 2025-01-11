@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="57343" started-at="2015-02-24T11:46:26Z" finished-at="2015-02-24T11:47:24Z">
+    <groups>
+    </groups>
+    <test name="Windows+Chrome Test" duration-ms="36502" started-at="2015-02-24T11:46:26Z" finished-at="2015-02-24T11:47:03Z">
+      <class name="com.MOTA.selenium.DriverTest">
+        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.MOTA.selenium.DriverTest@496bc455]" name="setup" is-config="true" duration-ms="0" started-at="2015-02-24T17:16:26Z" finished-at="2015-02-24T17:16:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.util.MissingResourceException">
+            <message>
+              <![CDATA[Can't find bundle for base name test, locale en_US]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.MissingResourceException: Can't find bundle for base name test, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(Unknown Source)
+	at java.util.ResourceBundle.getBundleImpl(Unknown Source)
+	at java.util.ResourceBundle.getBundle(Unknown Source)
+	at com.MOTA.common.Global_Common.getEnvironmentProperty(Global_Common.java:20)
+	at com.MOTA.common.Global_Common.getEnvironmentProperty(Global_Common.java:31)
+	at com.MOTA.selenium.DriverTest.setup(DriverTest.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.MissingResourceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="GoogleSearch()[pri:0, instance:com.MOTA.selenium.DriverTest@496bc455]" name="GoogleSearch" duration-ms="2" started-at="2015-02-24T17:17:03Z" finished-at="2015-02-24T17:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.MOTA.selenium.DriverTest@496bc455]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-02-24T17:17:03Z" finished-at="2015-02-24T17:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.MOTA.selenium.DriverTest -->
+    </test> <!-- Windows+Chrome Test -->
+    <test name="Windows+Firefox Test" duration-ms="57343" started-at="2015-02-24T11:46:26Z" finished-at="2015-02-24T11:47:24Z">
+      <class name="com.MOTA.selenium.DriverTest">
+        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.MOTA.selenium.DriverTest@909217e]" name="setup" is-config="true" duration-ms="0" started-at="2015-02-24T17:16:26Z" finished-at="2015-02-24T17:16:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.util.MissingResourceException">
+            <message>
+              <![CDATA[Can't find bundle for base name test, locale en_US]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.MissingResourceException: Can't find bundle for base name test, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(Unknown Source)
+	at java.util.ResourceBundle.getBundleImpl(Unknown Source)
+	at java.util.ResourceBundle.getBundle(Unknown Source)
+	at com.MOTA.common.Global_Common.getEnvironmentProperty(Global_Common.java:20)
+	at com.MOTA.common.Global_Common.getEnvironmentProperty(Global_Common.java:31)
+	at com.MOTA.selenium.DriverTest.setup(DriverTest.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.MissingResourceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="GoogleSearch()[pri:0, instance:com.MOTA.selenium.DriverTest@909217e]" name="GoogleSearch" duration-ms="1" started-at="2015-02-24T17:17:24Z" finished-at="2015-02-24T17:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.MOTA.selenium.DriverTest@909217e]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-02-24T17:17:24Z" finished-at="2015-02-24T17:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.MOTA.selenium.DriverTest -->
+    </test> <!-- Windows+Firefox Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>

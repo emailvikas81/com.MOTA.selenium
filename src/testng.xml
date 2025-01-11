@@ -1,0 +1,91 @@
+<suite name="TestSuite" thread-count="2" parallel="tests" >
+    
+   <test name="Windows+Firefox Test">
+			<parameters>
+				<parameter name="platform" value="Windows" />
+				<parameter name="browser" value="Firefox" />
+				<parameter name="version" value="8" />
+			</parameters>
+			<classes>
+				<class name="com.MOTA.selenium.DriverTest" />
+			</classes>
+		</test>
+		<test name="Windows+Chrome Test">
+			<parameters>
+				<parameter name="platform" value="Windows" />
+				<parameter name="browser" value="Chrome" />
+				<parameter name="version" value="32" />
+			</parameters>
+			<classes>
+				<class name="com.MOTA.selenium.DriverTest" />
+			</classes>
+		</test>  
+		
+		
+<!--
+<test name="Windows+ Headless Test">
+			<parameters>
+				<parameter name="platform" value="Windows" />
+				<parameter name="browser" value="Headless2" />
+				<parameter name="version" value="32" />
+			</parameters>
+			<classes>
+				<class name="com.MOTA.selenium.DriverTest" />
+			</classes>
+		</test>
+
+		
+		
+		<test name="Windows+IE9 Test">
+			<parameters>
+				<parameter name="platform" value="Windows" />
+				<parameter name="browser" value="Internet Explorer" />
+				<parameter name="version" value="9" />
+			</parameters>
+			<classes>
+				<class name="com.MOTA.selenium.DriverTest" />
+			</classes>
+		</test>
+		
+		<test name="Windows+ Headless Test">
+			<parameters>
+				<parameter name="platform" value="Windows" />
+				<parameter name="browser" value="Headless" />
+				<parameter name="version" value="32" />
+			</parameters>
+			<classes>
+				<class name="com.MOTA.selenium.DriverTest" />
+			</classes>
+		</test>
+
+		<test name="Windows+Safari Test">
+			<parameters>
+				<parameter name="platform" value="Windows" />
+				<parameter name="browser" value="Safari" />
+				<parameter name="version" value="5" />
+			</parameters>
+			<classes>
+				<class name="com.MOTA.selenium.DriverTest" />
+			</classes>
+		</test>
+		 <test name="iOS Test">
+			<parameters>
+				<parameter name="platform" value="MAC" />
+				<parameter name="browser" value="iPad" />
+				<parameter name="version" value="" />
+			</parameters>
+			<classes>
+				<class name="com.MOTA.selenium.DriverTest" />
+			</classes>
+			</test> 
+			<test name="Andorid Test">
+				<parameters>
+					<parameter name="platform" value="Android" />
+					<parameter name="browser" value="Android" />
+					<parameter name="version" value="4.4" />
+				</parameters>
+			<classes>
+				<class name="com.MOTA.selenium.DriverTest" />
+			</classes>
+			</test>-->
+</suite>
